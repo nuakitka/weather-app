@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    padding: 10px  10px 70px;
+    height: 170px;
+    width: 100%;
+    background: linear-gradient(90deg, #aea4e3 , #d3ffe8)
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Rubik",sans-serif;
+    color: aliceblue;
+    font-size: 70px;
+    line-height: 52px;
+}
+.cont-form{
+    display:flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 460px;
+    border-radius: 5%;
+    border:none;
+    font-family: "Rubik",sans-serif;
+}
+.input {
+    width: 320px;
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+    padding-left: 15px;
+
+}
+
+.btn{
+    width: 155px;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    font-family: "Rubik",sans-serif;
+}
+/* card */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    width: 550px;
+    height: 450px;
+
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(34, 60, 80, 0.37);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(34, 60, 80, 0.37);
+    box-shadow: 0px 3px 8px 0px rgba(34, 60, 80, 0.37);
+    margin-top: 3.5%;
+    border-radius: 2%;
+    font-family: "Inter",sans-serif;
+
+}
+.card-city {
+    display: flex;
+    
+    margin: 10%;
+    font-size: xx-large;
+}
+span{
+    margin-left:10px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: red;
+    text-align: center;
+    text-justify: center;
+    color: white;
+    height: 20px;
+    min-width: 40px;
+    border-radius: 5px;
+}
+
+.card-weather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    
+}
+
+
+
+.card-value{
+    margin: 0;
+    font-size: 100px;
+    
+}
+.card-description{
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-size: x-large;
+}
